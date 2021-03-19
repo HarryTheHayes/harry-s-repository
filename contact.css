@@ -78,3 +78,7 @@ a,image{
 	font-size: 200%;
 	font-style: italic;
 	color: white;
+}
+.linktree{
+    justify-content: space-evenly;
+}
