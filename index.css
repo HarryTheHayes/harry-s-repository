@@ -432,6 +432,7 @@ a,image{
 	font-size: 200%;
 	font-style: italic;
 	color: white;
+	margin: 20px;
 }
 img {
 	display: block;
@@ -443,3 +444,24 @@ img {
 	grid-template-columns: 1fr 5fr;
 	grid-gap: 20px;
   }
+  .t{
+	  justify-content: left;
+	  align-items: flex-start;
+
+  }
+  .u{
+	  justify-content: space-evenly;
+	  align-items: center;
+
+  }
+.l{
+	align-items: flex-end;
+}
+.chatter{
+	box-sizing: content-box;
+	font-size: 200%;
+	font-style: italic;
+	color: white;
+	margin: 20px;
+	font-family: monospace;
+}
