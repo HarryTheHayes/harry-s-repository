@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="about.css">
-    <title>aboutme</title>
+    <title>About me</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
 </head>
+
 <body>
-    <div class = "banner">
+    <div class="banner">
         <div class="logo">
-            <a class = "logo_link" href="https://soundcloud.com/harry-hayes-casserley/tracks">
-                <img class = "logo_image" src="images/haz.jpeg.jpg" alt="logo">
+            <a class="logo_link" href="https://soundcloud.com/harry-hayes-casserley/tracks">
+                <img class="logo_image" src="images/haz.jpeg.jpg" alt="logo">
             </a>
         </div>
         <h1 id="snake">Harry's Website</h1>
@@ -24,5 +30,34 @@
                 <a href="contact.html">CONTACT</a>
             </li>
         </div>
-</body>
-</html>
+        <div class="name">
+            <!-- Insert to your webpage where you want to display the audio player -->
+            <div id="amazingaudioplayer-1"
+                style="display:block;position:relative;width:100%;max-width:300px;height:auto;margin:0px auto 0px;">
+                <ul class="amazingaudioplayer-audios" style="display:none;">
+                    <li data-artist="DJ HAZZA" data-title="yessssss" data-album="UNRELEASED MIX"
+                        data-info="Enjoy this unreleased mix by your's truly x" data-image="" data-duration="702">
+                        <div class="amazingaudioplayer-source" data-src="audios/yessssss.mp3" data-type="audio/mpeg">
+                        </div>
+                    </li>
+                </ul>
+                <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com"
+                        title="html5 audio player">mp3 player for website</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- Anything that goes here would be below the nav bar and need styling to align it correctly, etc-->
+    <div>
+        <P class="chat">
+            DJ Hazza is a 22 year old Drum & Bass DJ living in Manchester, UK. Specialising in jump up & jungle.
+            Checkout the music player to hear a special unreleased mix.
+            <li class="chat">
+            I also have a new 2021 promo mix coming out soon, so stay following on all my socials so you don't miss an upload.
+            Head over to the contacts tab for access to my linktree.
+            If you want a sneak peak check out my latest competition entry because it's actually the first 20 minutes of my next mix called big boy behaviour PT.1 xx
+        </P>
+    </div>
+    <div>
+        <img src="Images/l.jpg" alt="lozzab">
+        <img src="Images/g.jpg" alt="hazzab">
+    </div>
