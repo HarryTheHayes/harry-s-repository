@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    background-image: url("images/big\ hazza.jpg");
+    margin:  0;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    margin: 0;
+}
+
+.logo_link {
+    height: 100%;
+    width: 100%;
+}
+
+.logo_image {
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    background-color: lightskyblue;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#snake {
+    font-size: xx-large;
+    font-style: italic;
+    width: 200px; ;
+    margin: 0;
+}
+.header {
+    width: 95%;
+    height: 10%;
+    background-color: rgb(60, 14, 230);
+    margin: 5px;
+    border: solid black 2px;
+}
+.main {
+    width: 95%;
+    height: 85%;
+    background-color: rgb(59, 120, 122);
+    margin: 2px;
+    border: solid lightgray 2px;
+}
+.navbar {
+    height: 10%;
+    width: 40%;
+    background-color: lightskyblue;
+    border: 0px;
+    justify-content:right;
+   
+    
+}
+.large {
+    font-size: 50;
+}
+.navbar {
+    text-align: left;
+    background-color:lightskyblue;
+}
+a,image{
+    height: 100%;
+    width: 100%;
+}
