@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="contact.css">
-    <title>contact</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
 </head>
 
 <body>
@@ -26,16 +30,39 @@
                 <a href="contact.html">CONTACT</a>
             </li>
         </div>
-        <div>
-            <P class="chat">
-                Click the linktree below for access to all my socials.
-            </P>
+        <div class="name">
+            <!-- Insert to your webpage where you want to display the audio player -->
+            <div id="amazingaudioplayer-1"
+                style="display:block;position:relative;width:100%;max-width:300px;height:auto;margin:0px auto 0px;">
+                <ul class="amazingaudioplayer-audios" style="display:none;">
+                    <li data-artist="DJ HAZZA" data-title="yessssss" data-album="UNRELEASED MIX"
+                        data-info="Enjoy this unreleased mix by your's truly x" data-image="" data-duration="702">
+                        <div class="amazingaudioplayer-source" data-src="audios/yessssss.mp3" data-type="audio/mpeg">
+                        </div>
+                    </li>
+                </ul>
+                <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com"
+                        title="html5 audio player">mp3 player for website</a></div>
+            </div>
         </div>
     </div>
-    <div>
-        <P>
+    <div class="chatter">
+        <h1>
+            For Booking information you can reach me on harrythehayes@gmail.com.
+        </h1>
+        <h1 class="chat">
+            And Click the linktree for access to all my socials.
+
+
+        </h1> 
+        
+    </div>
+    <div class="chat">
+        <a class = "linktree" href="https://linktr.ee/DJ_HAZZA">
+            <img src="Images/link.jpg" alt="linktree">
             https://linktr.ee/DJ_HAZZA
-        </P>
+        </a>
+    
     </div>
 
 </body>
